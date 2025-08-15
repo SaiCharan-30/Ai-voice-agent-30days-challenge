@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>VoiceBot Chat</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
+  <link rel="stylesheet" href="/frontend/styles.css">
+</head>
+
+<body>
+  <div class="chat-container">
+    <h1>🎙️ AI VoiceBot Chat</h1>
+    <div id="chat-box" class="chat-box"> <!-- Chat messages will appear here --> </div>
+    <div class="input-group"> <input type="text" id="textInput" placeholder="Type your message..." /> <button
+        onclick="submitText()">▶</button> </div>
+    <div class="input-group" style="margin-top: 1rem;"> <button id="startBtn">🎤 Start Recording</button> <button
+        id="stopBtn" disabled>⏹️ Stop Recording</button> </div>
+  </div>
+  <script src="/frontend/script.js"></script>
+</body>
+
+</html>
